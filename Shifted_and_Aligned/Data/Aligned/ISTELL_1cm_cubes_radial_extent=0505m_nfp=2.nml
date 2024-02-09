@@ -1,0 +1,46 @@
+&MAGPIE
+!------ General geometric parameters -------------------------------------------
+    magnet_type       = 'trec'
+    nfp               = 2
+    stell_symm        = T
+    tor_symm          = T
+    limiting_surf_file = 'surface_torus_R046cm_a01275cm.txt'
+    limiting_surf_phi_sign = 1
+    radial_extent     = 0.0505
+    gap_lim           = 0.0
+!------ Parameters for trapezoidally-enclosed rectangular prisms ('trec') ------
+    trec_rmin         = 0.2575
+    trec_rmax         = 0.6625
+    trec_dr           = 0.0105
+    trec_zmin         = -0.2025
+    trec_zmax         = 0.2025
+    trec_dz           = 0.024
+    trec_pmin         = 0.0
+    trec_pmax         = 1.5707963267948966192313216916398
+    trec_nPhi         = 4
+    trec_sub_nr       = 1
+    trec_sub_nz       = 2
+    trec_sub_ltor     = 0.01
+    trec_lpmin        = 0.01
+    gap_trr           = 0.0005
+    gap_trz           = 0.0035
+    gap_trp           = 0.0159
+    gap_trs           = 0.0005
+    trec_ax_init      = 'normal'
+    trec_seam_clip    = T
+    trec_no_ob_taper  = T
+    trec_trim_subs    = T
+!------ Parameters relevant for FOCUS input ------------------------------------
+    M_max             = 1.17E6
+    rho_free          = T
+    rho_initial       = 0.0
+    axis_free         = T
+!------ Parameters for output files --------------------------------------------
+    output_base_name  = 'ISTELL_1cm_cubes_radial_extent=0505m_aligned_nfp=2_nPhi=4'
+    focus_file        = T
+    corners_file      = T
+    blocks_file       = F
+    magnet_vtk        = T
+    repeat_to_fill    = 'half-period'
+!------ Parameters for object intersection checking ----------------------------
+/
