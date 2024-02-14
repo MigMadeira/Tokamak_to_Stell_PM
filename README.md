@@ -1,4 +1,4 @@
-# Tokamak_to_Stell_PM
+# Tokamak_to_Stell_PM [![DOI](https://zenodo.org/badge/755053921.svg)](https://zenodo.org/doi/10.5281/zenodo.10656979)
  Assessing the viability of converting the ISTTOK Tokamak into a stellarator using only permanent magnets.
 
 ## Requisites
